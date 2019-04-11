@@ -87,7 +87,6 @@ Een tweede installatie is de GraspIO OS, sla dit op op de computer.
 De software GraspIO OS moet op de SD kaart terecht komen. Dit deden wij als volgt:
 1. Eerst moesten we starten met het plaatsen van de SD-kaart in de computer  
 
-<img src="Labo4/9PiSD.JPG" width="500">  
 
 ![](Labo4/9PiSD.JPG)  
 
