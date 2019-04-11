@@ -15,13 +15,13 @@
 * Verbinding Wifi-netwerk
 
 ## Introductie GraspIO
-![](labo4\1GraspIOelements.jpg)
+<img src="labo4\1GraspIOelements.jpg">
 
 1. **Temperatuur Sensor**  
 Dit is een klein apparaatje waarin de fysische grootheid temperatuur - aangegeven in graden Celsius of Fahrenheit - wordt omgezet in een uit te lezen elektrisch signaal.
 2. **IR Sensor/ Infrarood Sensor**   
 Dit is een sensor die gebruik maakt van infrarood licht. Deze kan gebruikt worden om bewegingen te detecteren. De GraspIO Cloudio heeft een maximum waarnemingsafstand van 30 cm.  
-![](labo4\2IRblock.jpg)  
+<img src="labo4\2IRblock.jpg">  
     1. In het eerste vakje zie je het icoontje. Hier kan je kiezen tussen analoog of digitaal. Bij analoog kan je de analoge waarden laten lezen en vergelijken met de drempelwaarde tussen 0 - 999
     2. In het 2e vakje is er de keuze tussen interne IR sensor of externe sensor, aangesloten op één van de drie poorten op het bord.
     3. In het 3e vakje kan je het operant teken beslissen:
@@ -34,9 +34,9 @@ Dit is een sensor die gebruik maakt van infrarood licht. Deze kan gebruikt worde
     4. In het 4e vakje vind je indien je voor analoog gekozen hebt de plaats waar je de waarde kan geven, die je dus tussen 0-999 kan ingeven.
     Heb je gekozen voor digitaal, dan kan je kiezen tussen de drempel toestanden die zullen worden vergeleken met de toestand die jouw IR-sensor in digitale modus ontvangt.
 3. **Digitale switch**  
-Een digitale schakelaar verwijst naar een drukknop die AAN (of UIT) staat wanneer deze wordt ingedrukt en UIT (of AAN) staat wanneer deze niet is ingedrukt. Wanneer de schakelaar wordt ingedrukt, zijn twee punten in het circuit aangesloten en is het circuit voltooid. Er dient echter te worden opgemerkt dat een drukknop slechts AAN (of UIT) staat totdat de gebruiker de schakelaar indrukt.
-Deze switch kan in digitale modus worden gebruikt om de toestanden (hoog of laag) van de ingangen van een digitale schakelaar te ontvangen. De sensor kan de ingebouwde tactiele schakelaar (SW) zijn, of een externe sensor die aangesloten is op één van de poorten S1, S2 of S3.  
-![](labo4\4Switchblock.jpg)
+Een digitale schakelaar verwijst naar een drukknop die AAN (of UIT"> staat wanneer deze wordt ingedrukt en UIT (of AAN"> staat wanneer deze niet is ingedrukt. Wanneer de schakelaar wordt ingedrukt, zijn twee punten in het circuit aangesloten en is het circuit voltooid. Er dient echter te worden opgemerkt dat een drukknop slechts AAN (of UIT"> staat totdat de gebruiker de schakelaar indrukt.
+Deze switch kan in digitale modus worden gebruikt om de toestanden (hoog of laag"> van de ingangen van een digitale schakelaar te ontvangen. De sensor kan de ingebouwde tactiele schakelaar (SW"> zijn, of een externe sensor die aangesloten is op één van de poorten S1, S2 of S3.  
+<img src="labo4\4Switchblock.jpg">
     1. Bij het icoontje in het eerste vakje kan je niets doen. 
     2. Daarnaast staat een vakje met “SW” dit staat voor de Switch. Hier kan je kiezen welke Port. Je hebt de switch van de GraspIO zelf maar je kan ook de 3 poorten aansluiten die naar een externe switch verwijzen.
     3. Het 3e vakje is het operant teken.
@@ -45,8 +45,8 @@ Deze switch kan in digitale modus worden gebruikt om de toestanden (hoog of laag
     4. Dan heb je nog het laatste vakje, daar kies je de status. Hoog of laag. We konden de optie “Read” gebruiken om real-time waarden van de geselecteerde poort te lezen en te ontvangen
 De switch zal zich altijd bevinden in een if statement of dergelijke
 4. **Licht sensor**  
-Een lichtsensor genereert een uitgangssignaal dat de intensiteit van het licht aangeeft door de stralingsenergie in het lichtspectrum te meten. Het is een passief apparaat dat deze "lichtenergie" omzet in een elektrische signaaluitgang. Deze sensor kan worden gebruikt om analoge ingangen (gehele getallen in het bereik van 0 tot 999) van een lichtsensor te ontvangen. De sensor kan de ingebouwde omgevingslichtsensor zijn, of een externe sensor die is aangesloten op één van de poorten S1, S2, S3.  
-![](labo4\5Lightblock.jpg)
+Een lichtsensor genereert een uitgangssignaal dat de intensiteit van het licht aangeeft door de stralingsenergie in het lichtspectrum te meten. Het is een passief apparaat dat deze "lichtenergie" omzet in een elektrische signaaluitgang. Deze sensor kan worden gebruikt om analoge ingangen (gehele getallen in het bereik van 0 tot 999"> van een lichtsensor te ontvangen. De sensor kan de ingebouwde omgevingslichtsensor zijn, of een externe sensor die is aangesloten op één van de poorten S1, S2, S3.  
+<img src="labo4\5Lightblock.jpg">
     1. Bij het icoontje in het eerste vakje kan je niets doen. 
     2. Daarnaast staat een vakje met “LT” dit staat voor de Light. Hier kan je kiezen welke Port. Je hebt de lichtsensor van de GraspIO zelf maar je kan ook de 3 poorten aansluiten die naar een externe licht sensor verwijzen
     3. In het 3e vakje kan je het operant teken beslissen:
@@ -58,21 +58,21 @@ Een lichtsensor genereert een uitgangssignaal dat de intensiteit van het licht a
         * niet gelijk aan = !=
     4. In het laatste konden we een drempelwaarde van een geheel getal instellen om te vergelijken. Ook hier is de optie “Read” weer aanwezig.
 5. **OLED scherm**  
-Het OLED-blok wordt gebruikt om tekst, sensorwaarden en emojis op de OLED weer te geven. U kunt de inhoud van het blok instellen als aangepaste tekst (maximaal 100 tekens), realtime sensorwaarden die worden verzameld van de sensoren (aan boord of extern) die op het bord zijn aangesloten, of als een emoji geselecteerd uit een verzameling beschikbare emojis.  
-![](labo4\6Oledblock.jpg)  
+Het OLED-blok wordt gebruikt om tekst, sensorwaarden en emojis op de OLED weer te geven. U kunt de inhoud van het blok instellen als aangepaste tekst (maximaal 100 tekens">, realtime sensorwaarden die worden verzameld van de sensoren (aan boord of extern"> die op het bord zijn aangesloten, of als een emoji geselecteerd uit een verzameling beschikbare emojis.  
+<img src="labo4\6Oledblock.jpg">  
 Hierin kan je kiezen voor het type: 
     * sensors
     * tekst
     * emoji
 6. **Buzzer**  
-Een zoemer (Engels: buzzer of beeper) is een elektromechanisch of elektronisch onderdeel dat onder spanning een luide zoem- of pieptoon opwekt, afhankelijk van de toonhoogte. Er bestaan elektromagnetische en piëzo-elektrische zoemers. Zoemers worden onder andere toegepast in alarmapparaten, telefoontoestellen, magnetrons, wekkers en in auto's bij veiligheidsgordels. Zoemers bestaan al heel lang en werden vroeger vaak in plaats van de ouderwetse elektrische deurbel gebruikt.
+Een zoemer (Engels: buzzer of beeper"> is een elektromechanisch of elektronisch onderdeel dat onder spanning een luide zoem- of pieptoon opwekt, afhankelijk van de toonhoogte. Er bestaan elektromagnetische en piëzo-elektrische zoemers. Zoemers worden onder andere toegepast in alarmapparaten, telefoontoestellen, magnetrons, wekkers en in auto's bij veiligheidsgordels. Zoemers bestaan al heel lang en werden vroeger vaak in plaats van de ouderwetse elektrische deurbel gebruikt.
 De buzzer op de Graspio is een piëzo-elektrische zoemer.  
-![](labo4\7Buzzerblock.jpg)  
+<img src="labo4\7Buzzerblock.jpg">  
 Bij de buzzer is het heel simpel,je kan op de buzzer de status aan en de status uit zetten.
 7. **RGB led**  
 Cloudio bevat RGB led's op de kaart.
 RGB led's bestaan uit een rode, een groene en een blauwe led. Door elk van deze drie onafhankelijk van elkaar aan te passen, kunnen deze een breed scala aan kleuren produceren  
-![](labo4\8Ledblock.jpg)  
+<img src="labo4\8Ledblock.jpg">  
 Er kan eender welk kleur gekozen worden. Bij costom kan je eigen rood, groen en blauw toevoegen of aftrekken.
 Ook hier is het simpel. De status is een kleur of de status is uit.
 ___
@@ -82,35 +82,35 @@ ___
 Bij het opstarten van de GraspIO moeten we natuurlijk ook een aantal softwares downloaden. Te beginnen met Etcher software. Deze software is nodig om GraspIO Software over te plaatsen naar de SD kaart van de Raspberry. Download en plaats deze op de computer.
 Een tweede installatie is de GraspIO OS, sla dit op op de computer.
 
-![](labo4\3Flash.jpg)
+<img src="labo4\3Flash.jpg">
 
 De software GraspIO OS moet op de SD kaart terecht komen. Dit deden wij als volgt:
 1. Eerst moesten we starten met het plaatsen van de SD-kaart in de computer.  
 
 <img src="labo4\9PiSD.JPG" width="500">  
 
-2. Dan moesten we gaan zoeken in welk station (drive) ons SD kaart terecht komt in de computer.
+2. Dan moesten we gaan zoeken in welk station (drive"> ons SD kaart terecht komt in de computer.
 3. Dan het opstarten en het open van Etcher
-4. Kies voor selecteer afbeelding (select image)  
-![](labo4\10Etcher.jpg)
-5. Zoek naar de GraspIO waar je deze hebt opgeslagen en klik de afbeelding (image) open.
+4. Kies voor selecteer afbeelding (select image">  
+<img src="labo4\10Etcher.jpg">
+5. Zoek naar de GraspIO waar je deze hebt opgeslagen en klik de afbeelding (image"> open.
 6. Selecteer dan “Select drive” om het juiste station te selecteren. Hier toon je aan waar jouw SD kaart zich bevindt. 
-7. Als je zeker bent van het juiste station kies je voor Flash. Dan zal de GraspIO worden geplaatst (geknipt) op het station, jouw SD kaart.
+7. Als je zeker bent van het juiste station kies je voor Flash. Dan zal de GraspIO worden geplaatst (geknipt"> op het station, jouw SD kaart.
 8. Natuurlijk altijd eindigen met de SD kaart veilig te verwijderen!
 
 De SD kaart van Raspberry is nu klaar voor gebruik van Cloudio OS
 ___
 
-## GraspIO aansluiten (op Raspberry)
+## GraspIO aansluiten (op Raspberry">
 Na dat onze SD kaart klaar was om gebruik te maken van het Operating System moesten we nog zorgen dat onze GraspIO juist werd aangesloten.
 1. Zorg dat de Sensehat verwijderd is van de Raspberry Pi  
-<img src="labo4\11SenseHat.jpg" style="transform:rotate(-90deg)" width="500px">  
+<img src="labo4\11SenseHat.jpg" style="transform:rotate(-90deg">" width="500px">  
 2. We zorgden we ervoor dat de Raspberry geen stroom kon ontvangen en dan plaatsten we de SD kaart terug.
-3. Het is belangrijk dat de afstandhouder (spacer) is aangesloten op de Cloudio voordat je deze op de Raspberry Pi monteert.  
+3. Het is belangrijk dat de afstandhouder (spacer"> is aangesloten op de Cloudio voordat je deze op de Raspberry Pi monteert.  
 <img src="labo4\12spacer.jpg" width="500px">
-4. Plaats nu de Cloudio op de GPIO-header van de Raspberry Pi. (rij pinnetjes aan de bovenkant van de Raspberry). Wanneer je een Raspberry Pi 0/0W gebruikt, moet je de meest linkse pinnen van de Cloudio monteren op de meest linkse pinnen van de Raspberry Pi. 
+4. Plaats nu de Cloudio op de GPIO-header van de Raspberry Pi. (rij pinnetjes aan de bovenkant van de Raspberry">. Wanneer je een Raspberry Pi 0/0W gebruikt, moet je de meest linkse pinnen van de Cloudio monteren op de meest linkse pinnen van de Raspberry Pi. 
 5. Druk voorzichtig op de pinnen zodat ze goed vastzitten.
-<img src="labo4\13place.jpg" width="500px" style="transform:rotate(-90deg)"><img src="labo4\13place2.jpg" width="500px" style="transform:rotate(-90deg)">
+<img src="labo4\13place.jpg" width="500px" style="transform:rotate(-90deg">"><img src="labo4\13place2.jpg" width="500px" style="transform:rotate(-90deg">">
 
 Op dit ogenblik is de Raspberry klaar om stroom te ontvangen. Indien uw Raspberry Pi geen Wifi heeft, moet je een wifi-dongle aansluiten. Dit was voor ons niet van toepassing. Om de Raspberry Pi en de Cloudio aan te zetten moet u de voeding aansluiten op de micro-USB-poort. Als dit gebeurd is en de installatie is voltooid dan zal er op het OLED-scherm een welkomstboodschap verschijnen 
 ___
@@ -129,7 +129,7 @@ Voordat we kunnen beginnen met het gebruiken van onze Cloudio, moeten we deze ee
 De USB is een standaardmethode om de GraspIO te verbinden met uw account & een wifi-netwerk. Hierbij wordt gebruik gemaakt van een USB-kabel, zo kunnen we de wifigegevens overdragen tussen de Cloudio en een mobiel apparaat. Hierdoor kan de Cloudio dan verbinding maken met een extern wifi-netwerk en kan het er ook mee verbonden blijven. Voor deze methode hebben we een USB-kabel nodig zodat we een mobiel apparaat kunnen verbinden met de Raspberry Pi. Het connecteren met de USB gebeurt volgens volgende stappen. 
 
 1. Verbind je mobiel apparaat met de Cloudio via een USB-kabel  
-<img src="labo4\14Verbind2.jpg" width="500px">
+<img src="labo4\14Verbind2.JPG" width="500px">
 2. Maak een account aan.
 3. Ga naar "Account".
 4. Kies voor "USB Twinkle" en selecteer één van de Raspberry Pi's.
@@ -157,7 +157,7 @@ Indien je een mobiel netwerk hebt op je apparaat kan je de Hotspot Twinkle metho
 
 1. Als eerste selecteer je deze methode in de app op je mobiel apparaat 
 Het is de bedoeling dat je de GIO-schakelaar lang indrukt. Dan krijg je een lijst op het OLED.
-<img src="labo4\15Hotspot5.jpg" width="500px" style="transform:rotate(-90deg)" >
+<img src="labo4\15Hotspot5.jpg" width="500px" style="transform:rotate(-90deg">" >
 2. Bovenaan de lijst selecteer je ‘Hotspot Twinkle’, je kan dit selecteren door lang op de GIO-schakelaar te drukken. 
 3. Wanneer je dit geselecteerd hebt zal er op het OLED een wachtwoord verschijnen, deze hebben we nodig in de verdere stappen om met de hotspot verbinding te maken.
 4. Nu moeten we een hotspot maken op ons mobiel apparaat. Er zal een knop configureren komen op het app-scherm, op deze moeten we drukken, dan komen we terecht in de instellingen van ons mobiel apparaat. 
@@ -170,7 +170,7 @@ Het is de bedoeling dat je de GIO-schakelaar lang indrukt. Dan krijg je een lijs
 10. Als we verbonden zijn met de hotspot zien we op ons mobiele apparaat een lijst met beschikbare wifi-netwerken waarmee we kunnen verbinden.
 11. Het is de bedoeling dat we het wifi-netwerk waarmee we de cloudio willen verbinden selecteren, dan moeten we het wachtwoord van dit netwerk ingeven 
 12. Op het app scherm moeten we wachten tot de verbinding is voltooid, wanneer de verbinding is voltooid zullen we dit zien op het OLED.
-<img src="labo4\15Hotspot3.jpg" width="500px" style="transform:rotate(-90deg)" >
+<img src="labo4\15Hotspot3.jpg" width="500px" style="transform:rotate(-90deg">" >
 13. Nadat dit bericht op het OLED is verschenen, zal je op het app scherm op ‘Succesful’ moeten klikken 
 ___
 ## Voorbeeld
@@ -206,11 +206,11 @@ Ook kan dit als je het licht terug wilt uit zetten.
 Dit kan je op het OLED scherm zien 
 
 **Interne benodigdheden**  
-* Ledlichtje (stelt de lamp voor)
+* Ledlichtje (stelt de lamp voor">
 
 **Externe benodigdheden**
 * GraspIO app
-* Voice control (telefoon) 
+* Voice control (telefoon"> 
 
 **Aangemaakt project**  
 <img src="labo4\17project.png" width="200px">  
@@ -238,7 +238,7 @@ _*Tweede project*_
 Het is ochtend en je wilt dat er een geluid afspeelt en een lichtje gaat branden wanneer het 7u30 is. Als je wilt snoozen houd je je hand voor de IR-sensor. Wanneer de wekker dan terug afgaat druk je op de switch schakelaar om hem volledig te doen stoppen. 
 
 **Interne benodigdheden**  
-* Ledlichtje (stelt de lamp voor)
+* Ledlichtje (stelt de lamp voor">
 * Buzzer 
 * Switch schakelaar 
 * IR-sensor 
@@ -278,8 +278,8 @@ Dat klonk voor ons zeer verwarrend. Hierbij stelden we ons toch enkele vragen.
 Wat is een Applet?
 Een Applet verbindt twee/meer apps of apparaten met elkaar. Het stelt je in staat om iets te doen wat die apps of apparaten niet in hun eentje kunnen doen. 
 
-Om applets op IFTTT te maken, moet u gebruik maken (of creëren) van 
-* diensten die van plan zijn om op IFTTT te gebruiken. (ex Amazon Alexa, Philips Hue, etc.)
+Om applets op IFTTT te maken, moet u gebruik maken (of creëren"> van 
+* diensten die van plan zijn om op IFTTT te gebruiken. (ex Amazon Alexa, Philips Hue, etc.">
 * IFTTT-account voor GraspIO
 
 Hier volgt er weer een stappenplan hoe je IFTTT en GraspIO linkt.
