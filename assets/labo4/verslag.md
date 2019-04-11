@@ -87,6 +87,7 @@ Een tweede installatie is de GraspIO OS, sla dit op op de computer.
 De software GraspIO OS moet op de SD kaart terecht komen. Dit deden wij als volgt:
 1. Eerst moesten we starten met het plaatsen van de SD-kaart in de computer  
 <img src="Labo4/9PiSD.jpg" width="500">
+![](Labo4/9PiSD.jpg)
 2. Dan moesten we gaan zoeken in welk station (drive) ons SD kaart terecht komt in de computer.
 3. Dan het opstarten en het open van Etcher
 4. Kies voor selecteer afbeelding (select image)  
