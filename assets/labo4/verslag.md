@@ -122,7 +122,7 @@ ___
 
 ## Verbinding wifi-netwerk 
 Voordat we kunnen beginnen met het gebruiken van onze Cloudio, moeten we deze eerst verbinden met een wifi-netwerk en dit toevoegen aan ons account. Deze wifiverbinding kunnen we dan gebruiken om meerdere Cloudio boards aan het account op de GraspIO app toevoegen. Om de GraspIO te verbinden met een wifi-netwerk kunnen we twee methoden gebruiken. Via USB-verbinding ofwel via de hotspot.  
-<img src="labo4\14Verbind.png" width="500px">
+<img src="labo4\14Verbind.PNG" width="500px">
 
 
 ### USB twinkle 
